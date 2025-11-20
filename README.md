@@ -1,7 +1,11 @@
 # coreinit
 
 ## What is coreinit?
-
+<div style="display: flex;">
+  <img src="splash.png" width="200" />
+  <img src="bootmenu.png" width="200" />
+  <img src="firmware-setup.png" width="200" />
+</div>
 coreinit is a modular, minimal bootloader. It aims to provide a clean, extensible startup experience for your operating systems. Written in Turbowarp, it handles system initiation and provides the boot splash and optionally, boot menu and firmware setup.
 > *For release 1.2 and below, coreinit-firmware-setup is Turbowarp-exclusive. All other sprites work in Scratch.*
 

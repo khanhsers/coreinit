@@ -7,6 +7,5 @@ coreinit is a modular, minimal bootloader. It aims to provide a clean, extensibl
 
 ## Installation
 
-Simply import the "coreinit" sprite into your project. Remember to make all your scripts start after the "coreboot_boot" message and end after the "coreboot_shutdown" message. For no layering problems, you should hide all sprites before "coreboot_boot" and after "coreboot_shutdown".
-Optionally, you can also import the "coreinit-bootmenu" and "coreinit-firmware-setup" sprites for a more complete experience.
+Simply import the "coreinit" sprite into your project. Remember to make all your scripts start after the "coreboot_boot" message and end after the "coreboot_shutdown" message. For no layering problems, you should hide all sprites before "coreboot_boot" and after "coreboot_shutdown". Optionally, you can also import the "coreinit-bootmenu" and "coreinit-firmware-setup" sprites for a more complete experience.
 > *Starting from release 1.3, coreinit will be Turbowarp-exclusive, and will not work in Scratch.*

@@ -16,8 +16,6 @@ coreinit-bootmenu handles the boot menu for coreinit. It allows you to select di
 
 coreinit-firmware-setup is the utility which allows you to modify the Scratch runtime. It is extremely powerful, allowing you to change the clone limit, your username, framerate limit, stage resolution, and more. coreinit-firmware-setup requires coreinit-bootmenu for it to be accessed.
 
-coreinit-updater checks for updates. coreinit-updater requires coreinit-bootmeny for it to be accessed.
-
 ## Features
 
 coreinit features:

@@ -6,7 +6,7 @@
   <img src="splash.png" width="200" />
   <img src="bootmenu.png" width="200" />
   <img src="firmware-setup.png" width="200" />
-</div>
+</div><br>
 
 coreinit is a modular, minimal bootloader. It aims to provide a clean, extensible startup experience for your operating systems. Written in Turbowarp, it handles system initiation and provides the boot splash and optionally, boot menu and firmware setup.<br>
 
@@ -15,6 +15,8 @@ coreinit is a modular, minimal bootloader. It aims to provide a clean, extensibl
 coreinit-bootmenu handles the boot menu for coreinit. It allows you to select different operating systems to boot and access the firmware setup utility. coreinit works just fine without coreinit-bootmenu, and coreinit-bootmenu works just fine without coreinit (although it will not initialize without the "coreinit-initialize" message).
 
 coreinit-firmware-setup is the utility which allows you to modify the Scratch runtime. It is extremely powerful, allowing you to change the clone limit, your username, framerate limit, stage resolution, and more. coreinit-firmware-setup requires coreinit-bootmenu for it to be accessed.
+
+coreinit-updater is the utility which allows you to update coreinit with a click of a button. Internet connection required. coreinit-updater requires coreinit-bootmenu for it to be accessed.
 
 ## Features
 

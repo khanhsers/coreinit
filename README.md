@@ -28,10 +28,16 @@ coreinit-updater is the utility that allows you to update coreinit quickly and e
 
 coreinit features:
 - Extremely modular, with everything being optional
+- For users who like fine-grained control over their system
 - Easily customizable with barely any branding
-- Modifiable with easy-to-read code
+- Lightweight and heavily optimized system
 - Faster and easier than coding your own boot splash
 
 ## Installation
 
-Simply import the "coreinit" sprite into your project. Remember to make all your scripts start after the "coreboot_boot" message and end after the "coreboot_shutdown" message. For no layering problems, you should hide all sprites before "coreboot_boot" and after "coreboot_shutdown". Optionally, you can also import the "coreinit-bootmenu" and "coreinit-firmware-setup" sprites for a more complete experience.
+1. Simply import the "coreinit" sprite into your project.
+2. Make sure all your scripts start after the "coreboot_boot" message
+3. Make sure all your scripts end after the "coreboot_shutdown" message.
+4. Hide all sprites before "coreboot_boot"
+5. Hide all sprites after "coreboot_shutdown".
+6. (Optional) Import the "coreinit-bootmenu", "coreinit-firmware-setup" and "coreinit-updater" sprites for a more complete experience.
